@@ -6,5 +6,7 @@ public class First {
         System.out.println("this is first jenkins project");
         System.out.println(new Date()); // Use java.util.Date
         System.out.println("added one more file");
+        Student student=new Student();
+        student.sayHello();
     }
 }
